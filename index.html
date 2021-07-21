@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Demo Shopee</title>
+	<script type='text/javascript'src=""></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/sigle.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header class="container-fluid">
+		<section class="container">
+			<menu class="top-menu">
+					<ul class="menu menu-left">
+						<li class="menu-item">
+							<a href="#" class="menu-link">Giới thiệu</a>
+						</li>
+						<li class="menu-item">
+							<a href="#" class="menu-link">Chính sách</a>
+						</li>
+						<li class="menu-item">
+							<span class="menu-link-label">Kết nối:</span>
+							<a href="#" class="menu-link-icon"><i class="fab fa-facebook-square"></i></a>
+							<a href="#" class="menu-link-icon"><i class="fab fa-twitter-square"></i></a>
+						</li>
+					</ul>
+					<ul class="menu menu-right">
+						<li class="menu-item download-app">
+							<a href="#" class="menu-link download-app-btn">Tải app</a>
+							<div class="dowmload-app-content">
+								<div class="download-app-head">
+									<img src="img/qr-code.png"class="img-fluid" alt="">
+								</div>
+								<div class="download-app-body">
+									<ul class="download-app-list">
+										<li class="download-app-item">
+											<a href="#" class="download-app-link"><i class="fab fa-app-store-ios"></i>AppleStore</a>
+										</li>
+										<li class="download-app-item">
+											<a href="#" class="download-app-link"><i class="fab fa-google-play"></i>GooglePlay</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="menu-item">
+							<a href="#" class="menu-link">Thanh toán</a>
+						</li>
+						<li class="menu-item">
+							<a href="#" class="menu-link">Giỏ hàng</a>
+						</li>
+					</ul>
+			</menu>
+			<div class="header-content">
+				<div class="col header-logo">
+					<a href="index.html"><img src="img/logo.png"class="" alt=""></a>
+				</div>
+				<div class="col header-btn-open-menu">
+					<a href="#header-navbar" class="btn navbar-btn-open">
+						<i class="navbar-btn-open-icon fas fa-bars"></i>
+						<span class="navbar-btn-open-text">MENU</span>
+					</a>
+				</div>
+				<div class="col header-form-search">
+					<form action="" class="input-group-control">
+						<input type="text" class="input input-text input-search"placeholder="Tìm sản phẩm...">
+						<button class="btn input-submit"><i class="fas fa-search"></i></button>
+						<div class="history-search-content">
+							<span class="history-search-title">Đề xuất:</span>
+							<ul class="history-search-list">
+								<li class="history-search-item">
+									<a href="#" class="history-search-link">Đề xuất 1</a>
+								</li>
+								<li class="history-search-item">
+									<a href="#" class="history-search-link">Đề xuất 1</a>
+								</li>
+								<li class="history-search-item">
+									<a href="#" class="history-search-link">Đề xuất 1</a>
+								</li>
+								<li class="history-search-item">
+									<a href="#" class="history-search-link">Đề xuất 1</a>
+								</li>
+								<li class="history-search-item">
+									<a href="#" class="history-search-link">Đề xuất 1</a>
+								</li>
+								<li class="history-search-item">
+									<a href="#" class="history-search-link">Đề xuất 1</a>
+								</li>
+							</ul>
+						</div>
+					</form>
+					<div class="header-form-list-search">
+						<ul class="header-form-list-search-menu">
+							<li class="header-form-list-search-item">
+								<a href="#" class="header-form-list-search-link">Giày</a>
+							</li>
+							<li class="header-form-list-search-item">
+								<a href="#" class="header-form-list-search-link">Túi xách</a>
+							</li>
+							<li class="header-form-list-search-item">
+								<a href="#" class="header-form-list-search-link">Đồng hồ</a>
+							</li>
+							<li class="header-form-list-search-item">
+								<a href="#" class="header-form-list-search-link">Váy</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col header-cart">
+					<button class="btn header-cart-btn">
+						<i class="header-cart-btn-icon fab fa-opencart"></i>
+						<span class="header-cart-btn-number">10</span>
+					</button>
+				</div>
+			</div>
+			<div class="top-navbar row"id="header-navbar">
+				<nav class="navbar">
+					<div class="navbar-close">
+						<a href="#"class="btn navbar-btn-close"><i class="navbar-btn-close-icon fas fa-times"></i></a>
+					</div>
+					<ul class="navbar-menu">
+						<li class="navbar-item">
+							<a href="#" class="navbar-link"><i class="navbar-link-icon fas fa-home"></i>Home</a>
+						</li>
+						<li class="navbar-item dropdown">
+							<a href="#" class="navbar-link dropdown-btn"><i class="navbar-link-icon fas fa-utensils"></i>Thực phẩm</a>
+							<div class="dropdown-content dropdown-full">
+								<ul class="dropdown-group dropdown-group-row">
+									<li class="dropdown-list-content">
+										<h5 class="dropdown-list-title">Thực phẩm</h5>
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Bánh kẹo</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Bia</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Thức uống</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-list-content">
+										<h5 class="dropdown-list-title">Đồ hộp</h5>
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Rau củ đóng hộp</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Trái cây đóng hộp</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Thịt hộp</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Cá hộp</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Mật ong</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-list-content">
+										<h5 class="dropdown-list-title">Thực phẩm khô</h5>
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Đường</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Dầu ăn</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Thịt khô</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-list-content">
+										<h5 class="dropdown-list-title">Sữa-Sản phẩm từ sữa</h5>
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Sữa tươi</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Kem</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Bơ</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Phô mai</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-list-content">
+										<h5 class="dropdown-list-title">Thực phẩm tươi</h5>
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Hãi sản</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Thịt bò</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Thịt heo</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Thịt gà</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-list-content">
+										<h5 class="dropdown-list-title">Hóa phẩm-Chất tẩy</h5>
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Nước rửa chén</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Nước lau sàn</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Diệt côn trùng</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Khử mùi</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="navbar-item dropdown">
+							<a href="#" class="navbar-link dropdown-btn"><i class="navbar-link-icon fas fa-mobile-alt"></i>Điện thoại</a>
+							<div class="dropdown-content dropdown-full">
+								<ul class="dropdown-group dropdown-group-row">
+									<li class="dropdown-list-content">
+										<h5 class="dropdown-list-title">Điện thoại di động</h5>
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Iphone</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Samsung</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Xiaomi</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-list-content">
+										<h5 class="dropdown-list-title">Máy tính bảng</h5>
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Ipad</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Tablet</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-list-content">
+										<h5 class="dropdown-list-title">Smart Watch</h5>
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Apple Watch</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Samsung Gear</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-list-content">
+										<h5 class="dropdown-list-title">Phụ kiện</h5>
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Phụ kiện điện thoại</a>
+											</li>
+											<li class="dropdown-list-item">
+												<a href="#"class="dropdown-list-link">Phụ kiện máy tính bảng</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="navbar-item">
+							<a href="#" class="navbar-link dropdown-btn"><i class="navbar-link-icon fas fa-tshirt"></i>Thời trang</a>
+						</li>
+						<li class="navbar-item">
+							<a href="#" class="navbar-link dropdown-btn"><i class="navbar-link-icon fas fa-headphones"></i>Phụ kiện công nghệ</a>
+						</li>
+						<li class="navbar-item dropdown position-relative">
+							<a href="#" class="navbar-link dropdown-btn"><i class="navbar-link-icon fas fa-palette"></i>Làm đẹp</a>
+							<div class="dropdown-content dropdown-xm">
+								<ul class="dropdown-group dropdown-group-column">
+									<li class="dropdown-list-content">
+										<ul class="dropdown-list">
+											<li class="dropdown-list-item dropright position-relative">
+												<a href="#"class="dropdown-list-link  dropright-btn">Iphone</a>
+												<div class="dropdown-content dropdown-xm">
+													<ul class="dropdown-group dropdown-group-column">
+														<li class="dropdown-list-content">
+															<ul class="dropdown-list">
+																<li class="dropdown-list-item">
+																	<a href="#"class="dropdown-list-link">Iphone</a>
+																</li>
+																<li class="dropdown-list-item">
+																	<a href="#"class="dropdown-list-link">Samsung</a>
+																</li>
+																<li class="dropdown-list-item">
+																	<a href="#"class="dropdown-list-link">Xiaomi</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li class="dropdown-list-item dropright position-relative">
+												<a href="#"class="dropdown-list-link  dropright-btn">Iphone</a>
+												<div class="dropdown-content dropdown-xm">
+													<ul class="dropdown-group dropdown-group-column">
+														<li class="dropdown-list-content">
+															<ul class="dropdown-list">
+																<li class="dropdown-list-item">
+																	<a href="#"class="dropdown-list-link">Iphone</a>
+																</li>
+																<li class="dropdown-list-item">
+																	<a href="#"class="dropdown-list-link">Samsung</a>
+																</li>
+																<li class="dropdown-list-item">
+																	<a href="#"class="dropdown-list-link">Xiaomi</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li class="dropdown-list-item dropright position-relative">
+												<a href="#"class="dropdown-list-link  dropright-btn">Iphone</a>
+												<div class="dropdown-content dropdown-xm">
+													<ul class="dropdown-group dropdown-group-column">
+														<li class="dropdown-list-content">
+															<ul class="dropdown-list">
+																<li class="dropdown-list-item">
+																	<a href="#"class="dropdown-list-link">Iphone</a>
+																</li>
+																<li class="dropdown-list-item">
+																	<a href="#"class="dropdown-list-link">Samsung</a>
+																</li>
+																<li class="dropdown-list-item">
+																	<a href="#"class="dropdown-list-link">Xiaomi</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="navbar-item navbar-item-flash-sale">
+							<a href="#" class="navbar-link navbar-link-flash-sale">
+								<span class="flash-sale-tag-flash">F<i class="fas fa-bolt"></i>ASH </span>
+								<span class="flash-sale-tag-sale">SALE</span>
+							</a>
+						</li>
+						<li class="navbar-item">
+							<a href="#" class="navbar-link"><i class="navbar-link-icon far fa-file"></i>Tin tức</a>
+						</li>
+						<li class="navbar-item">
+							<a href="#" class="navbar-link"><i class="navbar-link-icon fas fa-exclamation-triangle"></i>404</a>
+						</li>
+						<li class="navbar-item">
+							<a href="#" class="navbar-link "><i class="navbar-link-icon far fa-address-book"></i>Liên hệ</a>
+						</li>
+						<li class="navbar-item">
+							<div class="change-theme-control">
+								<a href="#" class="change-theme-btn"><i class="fas fa-cog"></i></a>
+								<div class="change-theme-content">
+									<span class="change-theme-label">Darkmode</span>
+									<input type="checkbox" class="change-theme-toggle">
+								</div>
+							</div>
+						</li>
+						<li class="navbar-item">
+							<a href="#"class="navbar-link"><i class="fas fa-random"></i></a>
+						</li>
+					</ul>
+				</nav>
+			</div>			
+		</section>
+	</header>
+	<section class="sidebar-top container-fluid">
+		<div class="container">
+			<div class="row sidebar-top-img">
+				<div class="col sidebar-top-img-slide">
+					<div class="sidebar-top-img-slide-content">
+						<a href="#" class="sidebar-top-img-slide-item active">
+							<img src="img/slide1.jpg" alt="slide">
+						</a>
+						<a href="#" class="sidebar-top-img-slide-item">
+							<img src="img/slide2.jpg" alt="slide">
+						</a>
+						<a href="#" class="sidebar-top-img-slide-item">
+							<img src="img/slide3.jpg" alt="slide">
+						</a>
+						<a href="#" class="sidebar-top-img-slide-item">
+							<img src="img/slide4.jpg" alt="slide">
+						</a>
+						<a href="#" class="sidebar-top-img-slide-item">
+							<img src="img/slide5.jpg" alt="slide">
+						</a>
+					</div>
+					<div class=" sidebar-top-img-slide-btn">
+					     <a href="#"class="active"></a>
+					     <a href="#"class=""></a>
+					     <a href="#"class=""></a>
+					     <a href="#"class=""></a>
+					     <a href="#"class=""></a>
+					</div>
+				</div>
+				<div class="col sidebar-top-img-qc">
+					<div class="sidebar-top-img-qc-content">
+						<a href="#" class="sidebar-top-img-qc-item">
+							<img src="img/slide-sale2.jpg" alt="">
+						</a>
+						<a href="#" class="sidebar-top-img-qc-item">
+							<img src="img/slide-sale3.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row sidebar-top-slide-product">
+				<div class="sidebar-top-slide-product-head">
+					<a href="#"class="sidebar-top-slide-product-title h1">Xu hướng tìm kiếm <i class="fas fa-random"></i></a>
+					<span class="sidebar-top-slide-product-btn">
+						 <a href="#"class="sidebar-top-slide-product-btn-link active"></a>
+					     <a href="#"class="sidebar-top-slide-product-btn-link "></a>
+					     <a href="#"class="sidebar-top-slide-product-btn-link "></a>
+					</span>
+				</div>
+				<div class="sidebar-top-slide-product-body">
+					<div class="sidebar-top-slide-product-content">
+						<div class="col sidebar-top-slide-product-item">
+							<div class="sidebar-top-slide-product-card">
+								<a href="#" class="sidebar-top-slide-sale-content-product-card-link"></a>
+								<div class="sidebar-top-slide-product-card-head">
+									<div class="sidebar-top-slide-product-card-thumbnail">
+										<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+										</picture>
+									</div>
+								</div>
+								<div class="sidebar-top-slide-product-card-body">
+									<span class="sidebar-top-slide-product-card-title">Iphone 12</span>
+									<span class="sidebar-top-slide-product-card-description">200+ sản phẩm</span>
+								</div>
+							</div>
+						</div>
+						<div class="col sidebar-top-slide-product-item">
+							<div class="sidebar-top-slide-product-card">
+								<a href="#" class="sidebar-top-slide-sale-content-product-card-link"></a>
+								<div class="sidebar-top-slide-product-card-head">
+									<div class="sidebar-top-slide-product-card-thumbnail">
+										<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+										</picture>
+									</div>
+								</div>
+								<div class="sidebar-top-slide-product-card-body">
+									<span class="sidebar-top-slide-product-card-title">Iphone 12</span>
+									<span class="sidebar-top-slide-product-card-description">200+ sản phẩm</span>
+								</div>
+							</div>
+						</div>
+						<div class="col sidebar-top-slide-product-item">
+							<div class="sidebar-top-slide-product-card">
+								<a href="#" class="sidebar-top-slide-sale-content-product-card-link"></a>
+								<div class="sidebar-top-slide-product-card-head">
+									<div class="sidebar-top-slide-product-card-thumbnail">
+										<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+										</picture>
+									</div>
+								</div>
+								<div class="sidebar-top-slide-product-card-body">
+									<span class="sidebar-top-slide-product-card-title">Iphone 12</span>
+									<span class="sidebar-top-slide-product-card-description">200+ sản phẩm</span>
+								</div>
+							</div>
+						</div>
+						<div class="col sidebar-top-slide-product-item">
+							<div class="sidebar-top-slide-product-card">
+								<a href="#" class="sidebar-top-slide-sale-content-product-card-link"></a>
+								<div class="sidebar-top-slide-product-card-head">
+									<div class="sidebar-top-slide-product-card-thumbnail">
+										<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+										</picture>
+									</div>
+								</div>
+								<div class="sidebar-top-slide-product-card-body">
+									<span class="sidebar-top-slide-product-card-title">Iphone 12</span>
+									<span class="sidebar-top-slide-product-card-description">200+ sản phẩm</span>
+								</div>
+							</div>
+						</div>
+						<div class="col sidebar-top-slide-product-item">
+							<div class="sidebar-top-slide-product-card">
+								<a href="#" class="sidebar-top-slide-sale-content-product-card-link"></a>
+								<div class="sidebar-top-slide-product-card-head">
+									<div class="sidebar-top-slide-product-card-thumbnail">
+										<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+										</picture>
+									</div>
+								</div>
+								<div class="sidebar-top-slide-product-card-body">
+									<span class="sidebar-top-slide-product-card-title">Iphone 12</span>
+									<span class="sidebar-top-slide-product-card-description">200+ sản phẩm</span>
+								</div>
+							</div>
+						</div>
+						<div class="col sidebar-top-slide-product-item">
+							<div class="sidebar-top-slide-product-card">
+								<a href="#" class="sidebar-top-slide-sale-content-product-card-link"></a>
+								<div class="sidebar-top-slide-product-card-head">
+									<div class="sidebar-top-slide-product-card-thumbnail">
+										<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+										</picture>
+									</div>
+								</div>
+								<div class="sidebar-top-slide-product-card-body">
+									<span class="sidebar-top-slide-product-card-title">Iphone 12</span>
+									<span class="sidebar-top-slide-product-card-description">200+ sản phẩm</span>
+								</div>
+							</div>
+						</div>
+						<div class="col sidebar-top-slide-product-item">
+							<div class="sidebar-top-slide-product-card">
+								<a href="#" class="sidebar-top-slide-sale-content-product-card-link"></a>
+								<div class="sidebar-top-slide-product-card-head">
+									<div class="sidebar-top-slide-product-card-thumbnail">
+										<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+										</picture>
+									</div>
+								</div>
+								<div class="sidebar-top-slide-product-card-body">
+									<span class="sidebar-top-slide-product-card-title">Iphone 12</span>
+									<span class="sidebar-top-slide-product-card-description">200+ sản phẩm</span>
+								</div>
+							</div>
+						</div>
+						<div class="col sidebar-top-slide-product-item">
+							<div class="sidebar-top-slide-product-card">
+								<a href="#" class="sidebar-top-slide-sale-content-product-card-link"></a>
+								<div class="sidebar-top-slide-product-card-head">
+									<div class="sidebar-top-slide-product-card-thumbnail">
+										<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+										</picture>
+									</div>
+								</div>
+								<div class="sidebar-top-slide-product-card-body">
+									<span class="sidebar-top-slide-product-card-title">Iphone 12</span>
+									<span class="sidebar-top-slide-product-card-description">200+ sản phẩm</span>
+								</div>
+							</div>
+						</div>
+						<div class="col sidebar-top-slide-product-item">
+							<div class="sidebar-top-slide-product-card">
+								<a href="#" class="sidebar-top-slide-sale-content-product-card-link"></a>
+								<div class="sidebar-top-slide-product-card-head">
+									<div class="sidebar-top-slide-product-card-thumbnail">
+										<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+										</picture>
+									</div>
+								</div>
+								<div class="sidebar-top-slide-product-card-body">
+									<span class="sidebar-top-slide-product-card-title">Iphone 12</span>
+									<span class="sidebar-top-slide-product-card-description">200+ sản phẩm</span>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="row sidebar-top-category">
+				<a href="#category-content" class="sidebar-top-category-open-btn"></a>
+				<div class="sidebar-top-category-content"id="category-content">
+					<div class="col sidebar-top-category-item">
+						<div class="sidebar-top-category-card">
+							<div class="sidebar-top-category-card-head">
+								<div class="sidebar-top-category-card-thumbnail">
+									<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+									</picture>
+								</div>
+							</div>
+							<div class="sidebar-top-category-card-body">
+									<span class="sidebar-top-category-card-title">Điện thoại</span>
+							</div>
+							<a href="#" class="sidebar-top-category-card-link"></a>
+						</div>
+					</div>
+					<div class="col sidebar-top-category-item">
+						<div class="sidebar-top-category-card">
+							<div class="sidebar-top-category-card-head">
+								<div class="sidebar-top-category-card-thumbnail">
+									<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+									</picture>
+								</div>
+							</div>
+							<div class="sidebar-top-category-card-body">
+									<span class="sidebar-top-category-card-title">Điện thoại</span>
+							</div>
+							<a href="#" class="sidebar-top-category-card-link"></a>
+						</div>
+					</div>
+					<div class="col sidebar-top-category-item">
+						<div class="sidebar-top-category-card">
+							<div class="sidebar-top-category-card-head">
+								<div class="sidebar-top-category-card-thumbnail">
+									<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+									</picture>
+								</div>
+							</div>
+							<div class="sidebar-top-category-card-body">
+									<span class="sidebar-top-category-card-title">Điện thoại</span>
+							</div>
+							<a href="#" class="sidebar-top-category-card-link"></a>
+						</div>
+					</div>
+					<div class="col sidebar-top-category-item">
+						<div class="sidebar-top-category-card">
+							<div class="sidebar-top-category-card-head">
+								<div class="sidebar-top-category-card-thumbnail">
+									<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+									</picture>
+								</div>
+							</div>
+							<div class="sidebar-top-category-card-body">
+									<span class="sidebar-top-category-card-title">Điện thoại</span>
+							</div>
+							<a href="#" class="sidebar-top-category-card-link"></a>
+						</div>
+					</div>
+					<div class="col sidebar-top-category-item">
+						<div class="sidebar-top-category-card">
+							<div class="sidebar-top-category-card-head">
+								<div class="sidebar-top-category-card-thumbnail">
+									<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+									</picture>
+								</div>
+							</div>
+							<div class="sidebar-top-category-card-body">
+									<span class="sidebar-top-category-card-title">Điện thoại</span>
+							</div>
+							<a href="#" class="sidebar-top-category-card-link"></a>
+						</div>
+					</div>
+					<div class="col sidebar-top-category-item">
+						<div class="sidebar-top-category-card">
+							<div class="sidebar-top-category-card-head">
+								<div class="sidebar-top-category-card-thumbnail">
+									<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+									</picture>
+								</div>
+							</div>
+							<div class="sidebar-top-category-card-body">
+									<span class="sidebar-top-category-card-title">Điện thoại</span>
+							</div>
+							<a href="#" class="sidebar-top-category-card-link"></a>
+						</div>
+					</div>
+					<div class="col sidebar-top-category-item">
+						<div class="sidebar-top-category-card">
+							<div class="sidebar-top-category-card-head">
+								<div class="sidebar-top-category-card-thumbnail">
+									<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+									</picture>
+								</div>
+							</div>
+							<div class="sidebar-top-category-card-body">
+									<span class="sidebar-top-category-card-title">Điện thoại</span>
+							</div>
+							<a href="#" class="sidebar-top-category-card-link"></a>
+						</div>
+					</div>
+					<div class="col sidebar-top-category-item">
+						<div class="sidebar-top-category-card">
+							<div class="sidebar-top-category-card-head">
+								<div class="sidebar-top-category-card-thumbnail">
+									<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+									</picture>
+								</div>
+							</div>
+							<div class="sidebar-top-category-card-body">
+									<span class="sidebar-top-category-card-title">Điện thoại</span>
+							</div>
+							<a href="#" class="sidebar-top-category-card-link"></a>
+						</div>
+					</div>
+					<div class="col sidebar-top-category-item">
+						<div class="sidebar-top-category-card">
+							<div class="sidebar-top-category-card-head">
+								<div class="sidebar-top-category-card-thumbnail">
+									<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+									</picture>
+								</div>
+							</div>
+							<div class="sidebar-top-category-card-body">
+									<span class="sidebar-top-category-card-title">Điện thoại</span>
+							</div>
+							<a href="#" class="sidebar-top-category-card-link"></a>
+						</div>
+					</div>
+					<div class="col sidebar-top-category-item">
+						<div class="sidebar-top-category-card">
+							<div class="sidebar-top-category-card-head">
+								<div class="sidebar-top-category-card-thumbnail">
+									<picture class="img-thumbnail"style="background-image:url('img/iphone-12.png');">
+									</picture>
+								</div>
+							</div>
+							<div class="sidebar-top-category-card-body">
+									<span class="sidebar-top-category-card-title">Điện thoại</span>
+							</div>
+							<a href="#" class="sidebar-top-category-card-link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid">
+		<div class="container">
+			<div class="row sidebar-top-qc">
+				<a href="#"><img src="img/qc.jpg" alt=""class="img-fluid"></a>
+			</div>
+		</div>
+	</section>
+	<section class="sale-content container-fluid">
+		<div class="container">
+			<div class="row sale-content-head">
+				<div class="col sale-content-head-tag">
+					<div class="flash-sale-tag-content">
+						<span class="flash-sale-tag">
+							<span class="flash-sale-tag-flash">F<i class="fas fa-bolt"></i>ASH </span>
+							<span class="flash-sale-tag-sale">SALE</span>
+						</span>
+					</div>
+				</div>
+				<div class="col sale-content-head-time">
+					<div class="flash-sale-time">
+						<span class="flash-sale-time-btn flash-sale-d fade">0</span>
+						<span class="flash-sale-time-btn flash-sale-h ">0</span>
+						<span class="flash-sale-time-btn flash-sale-i ">00</span>
+						<span class="flash-sale-time-btn flash-sale-s fade">00</span>
+					</div>
+				</div>
+			</div>
+			<div class="row sale-content-body">
+				<div class="col sale-content-item">
+					<div class="sale-content-product-card product-card">
+						<div class="product-card-head">
+							<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+							</div>
+							<span class="product-card-sale-tag">Bán hết</span>
+							<span class="product-card-bookmark">-40% giảm</span>
+						</div>
+						<div class="product-card-body">
+							<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+							<span class="sale-content-product-card-price">
+								<span class="sale-content-product-card-price-currency">đ</span>
+								<span class="sale-content-product-card-price-quetion">?</span>,
+								<span class="sale-content-product-card-price-quetion">?</span>
+								<span class="sale-content-product-card-price-number">00,000</span>
+							</span>
+						</div>
+						<div class="product-card-foot">
+							<span class="sale-content-product-card-progress">
+								<span class="sale-content-product-card-progress-bar">50%</span>
+							</span>
+							<i class="sale-content-product-card-icon fab fa-hotjar"></i>
+						</div>
+						<a href="#" class="sale-content-product-card-link product-card-link"></a>
+					</div>
+				</div>
+				<div class="col sale-content-item">
+					<div class="sale-content-product-card product-card">
+						<div class="product-card-head">
+							<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+							</div>
+							<span class="product-card-sale-tag">Bán hết</span>
+							<span class="product-card-bookmark">-40% giảm</span>
+						</div>
+						<div class="product-card-body">
+							<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+							<span class="sale-content-product-card-price">
+								<span class="sale-content-product-card-price-currency">đ</span>
+								<span class="sale-content-product-card-price-quetion">?</span>,
+								<span class="sale-content-product-card-price-quetion">?</span>
+								<span class="sale-content-product-card-price-number">00,000</span>
+							</span>
+						</div>
+						<div class="product-card-foot">
+							<span class="sale-content-product-card-progress">
+								<span class="sale-content-product-card-progress-bar">50%</span>
+							</span>
+							<i class="sale-content-product-card-icon fab fa-hotjar"></i>
+						</div>
+						<a href="#" class="sale-content-product-card-link product-card-link"></a>
+					</div>
+				</div>
+				<div class="col sale-content-item">
+					<div class="sale-content-product-card product-card">
+						<div class="product-card-head">
+							<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+							</div>
+							<span class="product-card-sale-tag">Bán hết</span>
+							<span class="product-card-bookmark">-40% giảm</span>
+						</div>
+						<div class="product-card-body">
+							<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+							<span class="sale-content-product-card-price">
+								<span class="sale-content-product-card-price-currency">đ</span>
+								<span class="sale-content-product-card-price-quetion">?</span>,
+								<span class="sale-content-product-card-price-quetion">?</span>
+								<span class="sale-content-product-card-price-number">00,000</span>
+							</span>
+						</div>
+						<div class="product-card-foot">
+							<span class="sale-content-product-card-progress">
+								<span class="sale-content-product-card-progress-bar">50%</span>
+							</span>
+							<i class="sale-content-product-card-icon fab fa-hotjar"></i>
+						</div>
+						<a href="#" class="sale-content-product-card-link product-card-link"></a>
+					</div>
+				</div>
+				<div class="col sale-content-item">
+					<div class="sale-content-product-card product-card">
+						<div class="product-card-head">
+							<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+							</div>
+							<span class="product-card-sale-tag">Bán hết</span>
+							<span class="product-card-bookmark">-40% giảm</span>
+						</div>
+						<div class="product-card-body">
+							<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+							<span class="sale-content-product-card-price">
+								<span class="sale-content-product-card-price-currency">đ</span>
+								<span class="sale-content-product-card-price-quetion">?</span>,
+								<span class="sale-content-product-card-price-quetion">?</span>
+								<span class="sale-content-product-card-price-number">00,000</span>
+							</span>
+						</div>
+						<div class="product-card-foot">
+							<span class="sale-content-product-card-progress">
+								<span class="sale-content-product-card-progress-bar">50%</span>
+							</span>
+							<i class="sale-content-product-card-icon fab fa-hotjar"></i>
+						</div>
+						<a href="#" class="sale-content-product-card-link product-card-link"></a>
+					</div>
+				</div>
+				<div class="col sale-content-item">
+					<div class="sale-content-product-card product-card">
+						<div class="product-card-head">
+							<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+							</div>
+							<span class="product-card-sale-tag">Bán hết</span>
+							<span class="product-card-bookmark">-40% giảm</span>
+						</div>
+						<div class="product-card-body">
+							<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+							<span class="sale-content-product-card-price">
+								<span class="sale-content-product-card-price-currency">đ</span>
+								<span class="sale-content-product-card-price-quetion">?</span>,
+								<span class="sale-content-product-card-price-quetion">?</span>
+								<span class="sale-content-product-card-price-number">00,000</span>
+							</span>
+						</div>
+						<div class="product-card-foot">
+							<span class="sale-content-product-card-progress">
+								<span class="sale-content-product-card-progress-bar">50%</span>
+							</span>
+							<i class="sale-content-product-card-icon fab fa-hotjar"></i>
+						</div>
+						<a href="#" class="sale-content-product-card-link product-card-link"></a>
+					</div>
+				</div>
+				<div class="col sale-content-item">
+					<div class="sale-content-product-card product-card">
+						<div class="product-card-head">
+							<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+							</div>
+							<span class="product-card-sale-tag">Bán hết</span>
+							<span class="product-card-bookmark">-40% giảm</span>
+						</div>
+						<div class="product-card-body">
+							<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+							<span class="sale-content-product-card-price">
+								<span class="sale-content-product-card-price-currency">đ</span>
+								<span class="sale-content-product-card-price-quetion">?</span>,
+								<span class="sale-content-product-card-price-quetion">?</span>
+								<span class="sale-content-product-card-price-number">00,000</span>
+							</span>
+						</div>
+						<div class="product-card-foot">
+							<span class="sale-content-product-card-progress">
+								<span class="sale-content-product-card-progress-bar">50%</span>
+							</span>
+							<i class="sale-content-product-card-icon fab fa-hotjar"></i>
+						</div>
+						<a href="#" class="sale-content-product-card-link product-card-link"></a>
+					</div>
+				</div>
+
+			</div>
+			<div class="row sale-content-foot">
+				<a href="#" class="btn sale-content-btn-view">Xem thêm</a>
+			</div>
+		</div>
+	</section>
+	<main class="main-content container-fluid">
+		<div class="container">
+			<div class="row top-sell-product">
+				<div class="top-sell-product-head">
+					<h1 class="top-sell-product-title active">Sản phẩm bán chạy</h1>
+					<a href="#" class="top-sell-product-link">Xem thêm</a>
+				</div>
+				<div class="top-sell-product-body">
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+					<div class="col top-sell-product-item">
+						<div class="product-card">
+							<div class="product-card-head">
+								<div class="product-card-thumbnail"style="background-image: url('img/iphone-12.png');">
+								</div>
+								<span class="product-card-sale-tag"></span>
+								<span class="product-card-bookmark">-40% giảm</span>
+							</div>
+							<div class="product-card-body">
+								<span class="product-card-title">[MÀU + BẢO HÀNH] - IPHONE XS MAX (64GB) (ĐEN) (99%)</span>
+								<span class="product-card-price"><u>đ</u>9,999,000</span>
+								<span class="product-card-price-label">Đã bán 50</span>
+							</div>
+							<div class="product-card-foot"></div>
+							<a href="#" class="product-card-link"></a>
+						</div>
+					</div>
+				</div>
+				<div class="top-sell-product-foot">
+					<a href="#" class="btn top-sell-product-view-btn">Xem thêm</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<section class="container-fluid post-content">
+		<div class="container">
+			<div class="row post-content-head">
+				<h1 class="post-content-title">
+					Tin tức
+				</h1>
+			</div>
+			<div class="row post-content-body">
+				<div class="col post-item">
+					<div class="post-card">
+						<div class="post-card-head">
+							<img src="img/post1.jpg" alt=""class="post-card-thumbnail img-fluid">
+						</div>
+						<div class="post-card-body">
+							<span class="post-card-date">03/THÁNG SÁU/2017</span>
+							<a href="#" class="post-card-title">Tinh dầu thiên nhiên và sức khỏe</a>
+							<p class="post-card-content">Được xem là dân tộc đầu tiên khám phá ra sự hiệu nghiệm kỳ ...</p>
+							<a href="#" class="post-card-link">Xem thêm </a>
+						</div>
+					</div>
+				</div>
+				<div class="col post-item">
+					<div class="post-card">
+						<div class="post-card-head">
+							<img src="img/post1.jpg" alt=""class="post-card-thumbnail img-fluid">
+						</div>
+						<div class="post-card-body">
+							<span class="post-card-date">03/THÁNG SÁU/2017</span>
+							<a href="#" class="post-card-title">Tinh dầu thiên nhiên và sức khỏe</a>
+							<p class="post-card-content">Được xem là dân tộc đầu tiên khám phá ra sự hiệu nghiệm kỳ ...</p>
+							<a href="#" class="post-card-link">Xem thêm </a>
+						</div>
+					</div>
+				</div>
+				<div class="col post-item">
+					<div class="post-card">
+						<div class="post-card-head">
+							<img src="img/post1.jpg" alt=""class="post-card-thumbnail img-fluid">
+						</div>
+						<div class="post-card-body">
+							<span class="post-card-date">03/THÁNG SÁU/2017</span>
+							<a href="#" class="post-card-title">Tinh dầu thiên nhiên và sức khỏe</a>
+							<p class="post-card-content">Được xem là dân tộc đầu tiên khám phá ra sự hiệu nghiệm kỳ ...</p>
+							<a href="#" class="post-card-link">Xem thêm </a>
+						</div>
+					</div>
+				</div>
+				<div class="col post-item">
+					<div class="post-card">
+						<div class="post-card-head">
+							<img src="img/post1.jpg" alt=""class="post-card-thumbnail img-fluid">
+						</div>
+						<div class="post-card-body">
+							<span class="post-card-date">03/THÁNG SÁU/2017</span>
+							<a href="#" class="post-card-title">Tinh dầu thiên nhiên và sức khỏe</a>
+							<p class="post-card-content">Được xem là dân tộc đầu tiên khám phá ra sự hiệu nghiệm kỳ ...</p>
+							<a href="#" class="post-card-link">Xem thêm </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<section class="container-fluid sidebar-bottom">
+		<div class="container ">
+			<div class="row sidebar-bottom-contact">
+				<div class="col sidebar-bottom-contact-text">
+					<h1 class="sidebar-bottom-contact-title">ĐĂNG KÝ NHẬN THÔNG TIN RSS FEED</h1>
+					<span class="sidebar-bottom-contact-description">Tin khuyến mãi sẽ gởi về Email của bạn, và bạn cũng có thể hủy bất cứ lúc nào!.</span>
+				</div>
+				<div class="col sidebar-bottom-contact-form">
+					<form action="" class="input-group-control">
+						<input type="email" class="input input-text"placeholder="Nhập địa chỉ email...">
+						<button class="btn input-submit"><i class="fas fa-paper-plane"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="container-fluid">
+		<div class="footer-content">
+			<div class="col footer-left">
+				<div class="footer-left-head">
+					<h3 class="footer-left-title footer-title">SHOPEE</h3>
+					<p class="footer-left-content">Mua hàng trên Shopee luôn là một trải nghiệm ấn tượng. Dù bạn đang có nhu cầu mua bất kỳ mặt hàng thời trang nam, thời trang nữ, đồng hồ, điện thoại hay sản phẩm dành cho Mẹ và bé thì Shopee cũng sẽ đảm bảo cung cấp cho bạn những sản phẩm ưng ý. Bên cạnh đó, Shopee cũng có sự tham gia của các thương hiệu hàng đầu thế giới ở đa dạng nhiều lĩnh vực khác nhau. Trong đó có thể kể đến Samsung, OPPO, Xiaomi, Unilever, PG, Biti’s...</p>
+				</div>
+				<div class="footer-left-body">
+					<span class="footer-left-address">Địa chỉ 1: 98 Nguyễn Văn Lượng, Gò Vấp, TPHCM</span>
+					<span class="footer-left-address">Địa chỉ 2: 98 Nguyễn Văn Lượng, Gò Vấp, TPHCM</span>
+					<span class="footer-left-telephone">Hotline/Zalo/Viber: 0932.913.631</span>
+				</div>
+				<div class="footer-left-foot">
+					<h3 class="footer-left-title footer-title">THEO DÕI CHÚNG TÔI:</h3>
+					<span class="footer-left-label">Chuyên cung cấp Tinh Dầu giá sỉ chất lượng tốt nhất</span>
+					<span class="footer-left-website">Website: www.Tinhdauonline.com.vn</span>
+					<span class="footer-left-contact-icon-list">
+						<i class="footer-left-contact-icon fab fa-facebook-f"></i>
+						<i class="footer-left-contact-icon fab fa-twitter"></i>
+					</span>
+				</div>
+			</div>
+			<div class="col footer-right">
+				<div class="footer-right-about">
+					<h3 class="footer-right-title footer-title">GIỚI THIỆU:</h3>
+					<p class="footer-right-about-content">Nếu bạn đang tìm kiếm một trang web để mua và bán hàng trực tuyến thì Shopee.vn là một sự lựa chọn hiệu quả dành cho bạn. Bản chất của Shopee là một social ecommerce platform - nền tảng cho phép người bán hàng có thể xem như một trang web thương mại điện tử tích hợp mạng xã hội để tương tác, thay đổi thông tin để cho khách hàng có thể dễ dàng tiếp cận được. Nhờ nền tảng đó, việc mua hàng trên Shopee trở nên nhanh chóng và đơn giản hơn. Bạn có thể trò chuyện trực tiếp với nhà bán hàng để hỏi trực tiếp về mặt hàng cần mua. Còn nếu bạn muốn tìm mua những dòng sản phẩm chính hãng, uy tín, Shopee Mall chính là sự lựa chọn lí tưởng dành cho bạn. Đến với Shopee, cơ hội để trở thành một nhà bán hàng dễ dàng hơn bao giờ hết.</p>
+				</div>
+				<div class="footer-right-contact-form">
+					<h3 class="footer-title"><i class="far fa-envelope-open"></i> NHẬN TIN KHUYẾN MÃI:</h3>
+					<form action="" class="input-group-control">
+						<input type="email" class="input input-text"placeholder="Nhập địa chỉ email...">
+						<button class="btn input-submit-box">Đăng ký</button>
+					</form>
+				</div>
+				<div class="row footer-right-menu-bar">
+					<div class="col footer-right-menu-col hidden">
+						<a href="#"class="h4 footer-title">THÔNG TIN:</a>
+						<div class="footer-right-menu-content">
+							<ul class="footer-right-menu">
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Về Chúng Tôi</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Liên hệ</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Điều khoản & Điều kiện</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Chính Sách</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col footer-right-menu-col">
+						<a href="#"class="h4 footer-title">THÔNG TIN:</a>
+						<div class="footer-right-menu-content">
+							<ul class="footer-right-menu">
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Về Chúng Tôi</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Liên hệ</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Điều khoản & Điều kiện</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Chính Sách</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col footer-right-menu-col">
+						<a href="#"class="h4 footer-title">THÔNG TIN:</a>
+						<div class="footer-right-menu-content">
+							<ul class="footer-right-menu">
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Về Chúng Tôi</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Liên hệ</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Điều khoản & Điều kiện</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Chính Sách</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col footer-right-menu-col">
+						<a href="#"class="h4 footer-title">THÔNG TIN:</a>
+						<div class="footer-right-menu-content">
+							<ul class="footer-right-menu">
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Về Chúng Tôi</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Liên hệ</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Điều khoản & Điều kiện</a>
+								</li>
+								<li class="footer-right-menu-item">
+									<a href="#" class="footer-right-menu-link">Chính Sách</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<section class="container-fluid copyright">.....</section>
+	<section class="contact-action">
+		<div class="contact-action-content"id="modal-contact">
+			<ul class="contact-list">
+				<li class="contact-item">
+					<a href="#" class="contact-link">
+						<span class="contact-link-icon">
+							<i class="fab fa-facebook-f"></i>
+						</span>
+						<span class="contact-link-text">
+							Facebook
+						</span>
+					</a>
+				</li>
+				<li class="contact-item">
+					<a href="#" class="contact-link">
+						<span class="contact-link-icon">
+							<i class="fab fa-twitter"></i>
+						</span>
+						<span class="contact-link-text">
+							Twitter
+						</span>
+					</a>
+				</li>
+				<li class="contact-item">
+					<a href="#" class="contact-link">
+						<span class="contact-link-icon">
+							<i class="fab fa-instagram"></i>
+						</span>
+						<span class="contact-link-text">
+							Instagram
+						</span>
+					</a>
+				</li>
+				<li class="contact-item">
+					<a href="#" class="contact-link">
+						<span class="contact-link-icon">
+							<i class="fas fa-phone-alt"></i>
+						</span>
+						<span class="contact-link-text">
+							Phone
+						</span>
+					</a>
+				</li>
+				<li class="contact-item">
+					<a href="#" class="contact-link">
+						<span class="contact-link-icon">
+							<i class="far fa-envelope"></i>
+						</span>
+						<span class="contact-link-text">
+							Email
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<button class="contact-action-button">
+			<a href="#"class="contact-action-btn-icon contact-action-close-icon"><i class="fas fa-times"></i></a>
+			<a href="#modal-contact" class="contact-action-btn-icon contact-action-open-icon"><i class="fab fa-facebook-f"></i></a>
+			<a href="#modal-contact" class="contact-action-btn-icon contact-action-open-icon"><i class="fab fa-twitter"></i></a>
+			<a href="#modal-contact" class="contact-action-btn-icon contact-action-open-icon"><i class="fab fa-instagram"></i></a>
+			<a href="#modal-contact" class="contact-action-btn-icon contact-action-open-icon"><i class="fas fa-phone-alt"></i></a>
+			<a href="#modal-contact" class="contact-action-btn-icon contact-action-open-icon active"><i class="far fa-envelope"></i></a>
+		</button>
+	</section>
+</body>
+</html>
