@@ -304,10 +304,10 @@
 		margin-bottom: 0;
 	}
 }
-@media (max-width: 450px)
+@media (max-width: 472px)
 {
 	.container
 	{
-		max-width: 400px;
+		max-width: 450px;
 	}
 }
