@@ -1,0 +1,306 @@
+@media (max-width: 1024px)
+{
+
+}
+@media (max-width: 740px)
+{
+	.container
+	{
+		max-width: 710px;
+	}
+	.top-menu
+	{
+		display: none;
+	}
+	.header-content
+	{
+		padding: 0;
+	}
+	.header-logo
+	{
+		width: 100%;
+		text-align: center;
+	}
+	.header-form-list-search
+	{
+		display: none;
+	}
+	.header-btn-open-menu
+	{
+		display: flex;
+	}
+	.top-navbar::-webkit-scrollbar
+	{
+		display: none;
+	}
+	.top-navbar
+	{
+		visibility: hidden;
+		opacity: 0;
+		transform: translateX(-100%);
+		transition: opacity 0.3s linear,transform linear 0.3s;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		z-index: 20;
+		margin: 0;
+		border-radius: 0;
+	}
+	.navbar
+	{
+		flex-direction: column;
+		border-radius: 0;
+	}
+	.navbar-menu
+	{
+		flex-direction: column;
+	}
+	.navbar-item:last-child
+	{
+		margin-left: unset;
+	}
+	.navbar-link 
+	{
+		padding-left: 3rem;
+	}
+	.navbar-link-icon
+	{
+		display: inline-block;
+	}
+	.navbar-close
+	{
+		display: block;
+	}
+	#header-navbar:target
+	{
+		visibility: visible;
+		opacity: 1;
+		transform: translateX(0%);
+	}
+	.change-theme-btn
+	{
+		display: none;
+	}
+
+
+	.sidebar-top-img-slide
+	{
+		width: 100%;
+		padding: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	.sidebar-top-img-qc
+	{
+		padding: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	.sidebar-top-img-qc-content
+	{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.sidebar-top-img-qc-item
+	{
+		width: 49%;
+	}
+
+
+
+
+
+
+	.sidebar-top-slide-product-item
+	{
+		width: calc((4/12)*100%);
+	}
+	.sidebar-top-slide-product-card
+	{
+		flex-direction: column;
+	}
+	.sidebar-top-slide-product-card-head
+	{
+		width: 100%;
+	}
+	.sidebar-top-slide-product-card-body
+	{
+		width: 100%;
+		padding: 0.5rem 1rem;
+	}
+
+
+	.sidebar-top-category
+	{
+		position: relative;
+	}
+	.sidebar-top-category-content::-webkit-scrollbar
+	{
+		display: none;
+	}
+	.sidebar-top-category-content
+	{
+		background: #f63;
+		flex-direction: column;
+		margin: 0;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 20;
+		transform: translateX(-100%);
+		transition: transform 0.3s,opacity 0.3s;
+		visibility: hidden;
+		opacity: 1;
+		width: 70%;
+		overflow: hidden;0.3s;
+	}
+	.sidebar-top-category-open-btn
+	{
+	
+	}
+	.sidebar-top-category-open-btn.active~.sidebar-top-category-content
+	{
+		visibility: visible;
+		opacity: 1;
+		transform: translateX(0);
+		overflow: scroll;
+	}
+	.sidebar-top-category-close-btn:after
+	{
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 60%;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	.sidebar-top-category-item
+	{
+		width: 100%;
+		padding: 0;
+		margin-bottom: 1rem;
+	}
+	.sidebar-top-category-card
+	{
+		flex-direction: row;
+		width: 100%;
+
+	}
+	.sidebar-top-category-card-head
+	{
+		width: 25%;
+		padding: 0.5rem;
+	}
+	.sidebar-top-category-card-body
+	{
+		width: 70%;
+	}
+	.sidebar-top-category-card-title
+	{
+		text-align: left;
+		font-size: 2rem;
+		color: #fff;
+	}
+
+	.sidebar-top-category-card:hover
+	{
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+	.sidebar-top-category-card:hover .sidebar-top-category-card-title
+	{	
+		color: #000;	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.sidebar-top-qc
+	{
+		display: none;
+	}
+
+	.sale-content-item
+	{
+		width: 50%; 
+	}
+
+	.flash-sale-tag-content
+	{
+		justify-content: center;
+		margin-bottom: 1rem;
+	}
+	.flash-sale-time
+	{
+		justify-content: center;
+	}
+
+
+	.top-sell-product-item
+	{
+		width: 50%;
+	}
+
+
+	.post-item
+	{
+		width: 100%;
+	}
+
+
+	.sidebar-bottom-contact
+	{
+		flex-direction: column;
+	}
+	.sidebar-bottom-contact-text
+	{
+		width: 100%;
+	}
+	.sidebar-bottom-contact-form
+	{
+		width: 100%;
+	}
+
+	.footer-content
+	{
+		flex-direction: column;
+	}
+	.footer-title
+	{
+		margin-bottom: 1rem;
+	}
+	.footer-left
+	{
+		width: 100%;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	.footer-right
+	{
+		width: 100%;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	.footer-right-menu-col
+	{
+		width: 100%;
+	}
+	.footer-right-menu-col 	.footer-title
+	{
+		margin-bottom: 0;
+	}
+}
